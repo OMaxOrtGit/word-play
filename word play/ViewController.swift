@@ -9,12 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var TextField: UITextField!
+    @IBOutlet weak var Label: UILabel!
+    
+    var text = ""
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        text = Label.text!
     }
 
-
+    @IBAction func clicked(_ sender: Any) {
+        text = Label.text!
+    }
+    
 }
 
