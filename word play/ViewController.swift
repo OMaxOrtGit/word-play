@@ -12,15 +12,14 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var TextField: UITextField!
     @IBOutlet weak var Label: UILabel!
-    
-    var text = ""
+    var Ttext = ""
     override func viewDidLoad() {
         super.viewDidLoad()
-        text = Label.text!
+        
     }
 
-    @IBAction func clicked(_ sender: Any) {
-        text = Label.text!
+    @IBAction func Edit(_ sender: Any) {
+        Ttext = "My uncle wants to go the " + TextField.text!
     }
     
 }
