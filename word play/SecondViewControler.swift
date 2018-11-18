@@ -13,10 +13,13 @@ class SecondViewControler: ViewController {
     @IBOutlet weak var Label2: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        var NT = super.Ttext
+        let NT = "\(super.Ttext)"
         Label2.text = NT
-        print("if xcode == bad {\nprint(''Hold on'')\n}")
     }
     
+    @IBAction func hi(_ sender: Any) {
+        let NT = "\(super.Ttext)"
+        Label2.text = NT
+    }
 }
 

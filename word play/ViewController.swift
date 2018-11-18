@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var TextField: UITextField!
     @IBOutlet weak var Label: UILabel!
     var Ttext = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -20,6 +21,7 @@ class ViewController: UIViewController {
 
     @IBAction func Edit(_ sender: Any) {
         Ttext = "My uncle wants to go the " + TextField.text!
+        print(Ttext)
     }
     
 }
