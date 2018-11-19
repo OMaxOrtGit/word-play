@@ -26,15 +26,12 @@
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <textInputTraits key="textInputTraits"/>
-                                        <connections>
-                                            <action selector="Edit:" destination="BYZ-38-t0r" eventType="editingChanged" id="1qn-3c-HpO"/>
-                                        </connections>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLM-MD-GJG">
                                         <rect key="frame" x="0.0" y="215.5" width="375" height="216"/>
                                         <state key="normal" title="MVP"/>
                                         <connections>
-                                            <segue destination="wYD-JE-HdI" kind="show" identifier="" id="UHI-Wn-QAS"/>
+                                            <segue destination="wYD-JE-HdI" kind="show" identifier="showDetail" id="UHI-Wn-QAS"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My uncle wants to go the …" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="enV-7I-XrH">
@@ -118,7 +115,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VAK-zI-XGb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1630" y="54"/>
+            <point key="canvasLocation" x="1228" y="27"/>
         </scene>
     </scenes>
 </document>

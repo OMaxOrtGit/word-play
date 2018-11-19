@@ -18,11 +18,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
     }
-
-    @IBAction func Edit(_ sender: Any) {
-        Ttext = "My uncle wants to go the " + TextField.text!
-        print(Ttext)
-    }
     
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showDetail" {
+            let data = Data()
+            if let SecondViewControler = segue.destination as? SecondViewControler {
+                SecondViewControler.data = data
+            }
+        }
+    }
 }
-
+//  Ttext = "My uncle wants to go the " + TextField.text!
