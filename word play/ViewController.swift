@@ -19,14 +19,13 @@ class ViewController: UIViewController {
         
     }
     
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "showDetail" {
-            let data = Data()
-            if let SecondViewControler = segue.destination as? SecondViewControler {
-                SecondViewControler.data = data
-            }
-        }
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let senderButton = sender as! UIButton
+        let title = senderButton.titleLabel
+        let nvc = segue.destination as! SecondViewControler
+        nvc.title = title
+        if title
+        
     }
 }
 //  Ttext = "My uncle wants to go the " + TextField.text!
