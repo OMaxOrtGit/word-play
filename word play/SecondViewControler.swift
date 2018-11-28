@@ -8,20 +8,13 @@
 
 import UIKit
 
-class SecondViewControler: ViewController {
+class SecondViewControler: UIViewController {
     
     @IBOutlet weak var Label2: UILabel!
+    var Ttext = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let NT = "\(super.Ttext)"
-        Label2.text = NT
-        print(super.Ttext + "juwhsiuwhe")
-    }
-    
-    @IBAction func hi(_ sender: Any) {
-        let NT = Date(from: SecondViewControler.self as! Decoder)
-        Label2.text = NT
-        print(super.Ttext + "juwhsiuwhe")
+        Label2.text = Ttext
     }
 }
-

@@ -20,12 +20,9 @@ class ViewController: UIViewController {
     }
     
      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let senderButton = sender as! UIButton
-        let title = senderButton.titleLabel
+        Ttext = "My uncle wants to go the " + TextField.text!
         let nvc = segue.destination as! SecondViewControler
-        nvc.title = title
-        if title
+        nvc.Ttext = Ttext
         
     }
 }
-//  Ttext = "My uncle wants to go the " + TextField.text!

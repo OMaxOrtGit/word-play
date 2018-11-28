@@ -29,6 +29,7 @@
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLM-MD-GJG">
                                         <rect key="frame" x="0.0" y="215.5" width="375" height="216"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="180"/>
                                         <state key="normal" title="MVP"/>
                                         <connections>
                                             <segue destination="wYD-JE-HdI" kind="show" identifier="showDetail" id="UHI-Wn-QAS"/>
@@ -80,19 +81,11 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dGk-IG-lzJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="323.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMO-u7-MvN">
-                                        <rect key="frame" x="0.0" y="323.5" width="375" height="323.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="39"/>
-                                        <state key="normal" title="Button"/>
-                                        <connections>
-                                            <action selector="hi:" destination="wYD-JE-HdI" eventType="touchUpInside" id="xGV-9H-PGy"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="dGk-IG-lzJ" firstAttribute="leading" secondItem="xXj-Vx-nFA" secondAttribute="leading" id="PZ0-ig-omD"/>
