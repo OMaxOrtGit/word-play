@@ -21,20 +21,20 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="W2x-jF-nPU">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8tT-D9-pfA">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="215.5"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLM-MD-GJG">
-                                        <rect key="frame" x="0.0" y="215.5" width="375" height="216"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="180"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="215.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <state key="normal" title="MVP"/>
                                         <connections>
                                             <segue destination="wYD-JE-HdI" kind="show" identifier="showDetail" id="UHI-Wn-QAS"/>
                                         </connections>
                                     </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8tT-D9-pfA">
+                                        <rect key="frame" x="0.0" y="215.5" width="375" height="216"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My uncle wants to go the …" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="enV-7I-XrH">
                                         <rect key="frame" x="0.0" y="431.5" width="375" height="215.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -45,9 +45,9 @@
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="8tT-D9-pfA" secondAttribute="trailing" id="2Dj-SZ-Ztk"/>
                                     <constraint firstItem="8tT-D9-pfA" firstAttribute="leading" secondItem="W2x-jF-nPU" secondAttribute="leading" id="9dI-A3-twR"/>
-                                    <constraint firstAttribute="trailing" secondItem="OLM-MD-GJG" secondAttribute="trailing" id="P8Y-lX-8ET"/>
+                                    <constraint firstAttribute="trailing" secondItem="OLM-MD-GJG" secondAttribute="trailing" id="DIk-wO-mcP"/>
                                     <constraint firstAttribute="trailing" secondItem="enV-7I-XrH" secondAttribute="trailing" id="Twn-M2-lz8"/>
-                                    <constraint firstItem="OLM-MD-GJG" firstAttribute="leading" secondItem="W2x-jF-nPU" secondAttribute="leading" id="nnl-An-OUY"/>
+                                    <constraint firstItem="OLM-MD-GJG" firstAttribute="leading" secondItem="W2x-jF-nPU" secondAttribute="leading" id="j4R-FY-bqV"/>
                                     <constraint firstItem="enV-7I-XrH" firstAttribute="leading" secondItem="W2x-jF-nPU" secondAttribute="leading" id="q60-Gf-7BQ"/>
                                 </constraints>
                             </stackView>
@@ -68,6 +68,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="209" y="27"/>
         </scene>
         <!--Second View Controler-->
         <scene sceneID="oOf-Or-Nfd">
