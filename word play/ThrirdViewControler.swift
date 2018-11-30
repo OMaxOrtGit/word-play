@@ -12,7 +12,10 @@ class ThirdViewControler: UIViewController {
     
     var TTtext = ""
     
+    @IBOutlet var Label3: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
 }
