@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     }
     
      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        Ttext = "My uncle wants to go the " + TextField.text!
+        Ttext = "My uncle wants to go to the " + TextField.text!
         let nvc = segue.destination as! SecondViewControler
         nvc.Ttext = Ttext
         

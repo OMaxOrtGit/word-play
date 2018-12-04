@@ -16,6 +16,6 @@ class ThirdViewControler: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        Label3.text = TTtext
     }
 }

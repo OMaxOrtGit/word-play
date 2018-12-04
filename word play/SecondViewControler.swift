@@ -18,7 +18,7 @@ class SecondViewControler: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        Label2.text = Ttext
+        Label2.text = Ttext + ". On the way there we saw a (Noun) with a (Adjective) sign on it \"saying (Verb) more chicken.\""
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -26,3 +26,4 @@ class SecondViewControler: UIViewController {
         nvc.TTtext = Ttext
     }
 }
+
