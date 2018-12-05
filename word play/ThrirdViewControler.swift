@@ -11,11 +11,12 @@ import UIKit
 class ThirdViewControler: UIViewController {
     
     var TTtext = ""
+    var TTtext2 = ""
     
     @IBOutlet var Label3: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        Label3.text = TTtext
+        Label3.text = TTtext + TTtext2
     }
 }
