@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C420067A21B9C3C10051F5F2 /* FourthViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C420067921B9C3C10051F5F2 /* FourthViewControler.swift */; };
 		C43E28EA219CC33B003CD41D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43E28E9219CC33B003CD41D /* AppDelegate.swift */; };
 		C43E28EC219CC33B003CD41D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43E28EB219CC33B003CD41D /* ViewController.swift */; };
 		C43E28EF219CC33B003CD41D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43E28ED219CC33B003CD41D /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C420067921B9C3C10051F5F2 /* FourthViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewControler.swift; sourceTree = "<group>"; };
 		C43E28E6219CC33B003CD41D /* word play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "word play.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43E28E9219CC33B003CD41D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C43E28EB219CC33B003CD41D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		C43E28E8219CC33B003CD41D /* word play */ = {
 			isa = PBXGroup;
 			children = (
+				C420067921B9C3C10051F5F2 /* FourthViewControler.swift */,
 				C4AB4A7A21B08A8B009FF59A /* ThrirdViewControler.swift */,
 				C491E2EA219E15B40093661A /* SecondViewControler.swift */,
 				C43E28EB219CC33B003CD41D /* ViewController.swift */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C420067A21B9C3C10051F5F2 /* FourthViewControler.swift in Sources */,
 				C4AB4A7B21B08A8B009FF59A /* ThrirdViewControler.swift in Sources */,
 				C491E2EB219E15B40093661A /* SecondViewControler.swift in Sources */,
 				C43E28EC219CC33B003CD41D /* ViewController.swift in Sources */,
